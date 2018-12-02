@@ -11,9 +11,9 @@
      @TAG(DATA61_BSD)
 -->
 <manifest>
-  <remote fetch="seL4" name="seL4"/>
-  <remote fetch="hy950831" name="hy950831"/>
-  <remote fetch="sel4proj" name="sel4proj"/>
+  <remote fetch="." name="hy950831"/>
+  <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="../sel4proj" name="sel4proj"/>
 
   <default remote="seL4" revision="master"/>
 
