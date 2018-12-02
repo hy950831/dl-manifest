@@ -13,9 +13,9 @@
 <manifest>
   <remote fetch="." name="seL4"/>
   <remote fetch="../sel4proj" name="sel4proj"/>
+  <remote fetch="../hy950831" name="hy950831"/>
 
   <default remote="seL4" revision="master"/>
-  <default remote="hy950831" revision="master"/>
 
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit"/>
